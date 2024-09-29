@@ -1,0 +1,31 @@
+1. To initialize the git
+git init
+
+2. Give the user name
+git config --global user.name "tabarej"
+
+3. Give the email id
+git config --global user.email "mstabarej@gmail.com"
+
+4. Add local file 
+git add Users.java
+
+5. Commit 
+git commit -m "msg"
+
+6. Give the remote file URL 
+git remote add orgin https://github.com/tabarej/klu-fs.git
+
+7. Push
+git push -u orgin master
+
+8. Adding everything to git
+git add .
+
+9. Commiting everithing
+git commit -m "msg"
+
+10. Pushing to git
+git push -u orgin master
+
+
