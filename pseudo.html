@@ -26,6 +26,14 @@
             background-color: gray;
             color: white;
         }
+        li::marker{
+            color: red;
+        } 
+        .c1 li::before{
+            content: "\2605";
+            color: red;
+            margin-right: 5px;
+        }
     </style>
 </head>
 <body>
@@ -41,5 +49,24 @@
          It stores the result of the previous 
         iterations and is passed along to each 
         subsequent iteration.</P>
+
+
+        <ul>
+            <li>KLU</li>
+            <li>ExcelR</li>
+            <li>FSD</li>
+            <li>DevOps</li>
+            <li>CICDPIpeline</li>
+
+        </ul>
+        <ul class="c1">
+            <li>KLU</li>
+            <li>ExcelR</li>
+            <li>FSD</li>
+            <li>DevOps</li>
+            <li>CICDPIpeline</li>
+        </ul>
+
+
 </body>
 </html>
