@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Pseudo class & pseudo element</title>
+    <style>
+        input[type="number"]:out-of-range{
+            border: 2px;stop-color: red;
+        }
+        input[type="number"]:in-range{
+            border: 2px solid green;
+        }
+    </style>
+</head>
+<body>
+    <input type="number" placeholder="enter your age" min="0" max="18" style="width: 500px;">
+</body>
+</html>
